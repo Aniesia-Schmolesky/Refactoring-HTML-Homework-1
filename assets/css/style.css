@@ -1,14 +1,17 @@
 * {
+    /*Styles the size of the height and width of the entire page*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /*Sets the background color for the body of the page*/
     background-color: #d9dcd6;
 }
 
 .header {
+    /*Sets the font, font color, background color, and placement of the header*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +19,18 @@ body {
 }
 
 .header h1 {
+    /*Controls the location of the header and the font size*/
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
+    /*Sets the color of "seo" in the title "Horiseon"*/
     color: #d9dcd6;
 }
 
 .header nav {
+    /*Sets the font, font size, and placement of the navigation items*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,20 +39,24 @@ body {
 }
 
 .header nav ul {
+    /*Sets the unordered list items or bullet points to none*/ 
     list-style-type: none;
 }
 
 .header nav ul li {
+    /*Formats location of navigation items*/
     display: inline-block;
     margin-left: 25px;
 }
 
 a {
+    /*Formats the text color and style of the hyperlinks*/
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    
     font-size: 16px;
 }
 
@@ -67,7 +77,7 @@ p {
 
 /*This is a note*/
 
-.search-engine-optimization {
+.key-topics {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -84,8 +94,6 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-
 
 .benefits {
     margin-right: 20px;
@@ -146,49 +154,11 @@ p {
     max-width: 150px;
 }
 
-
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.key-topics img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.key-topics h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
