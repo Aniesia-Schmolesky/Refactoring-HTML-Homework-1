@@ -90,6 +90,7 @@ p {
 }
 
 .benefits {
+    /*Formats the margins, font, and background color of the aside section*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -101,22 +102,26 @@ p {
 }
 
 .added-benefits {
+    /*Formats the margin and color of text on the list items in the aside section*/
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .added-benefits h3 {
+    /*Formats the margin and text placement of list item headers in the aside section*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 .added-benefits img {
+    /*Formats the icon placement and size in the aside section*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .key-topics {
+    /*Formats the margins, font, text color, and background color of the section*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -126,15 +131,18 @@ p {
 }
 
 .key-topics img {
+    /*Formats the size of the images in the section*/
     max-height: 200px;
 }
 
 .key-topics h2 {
+    /*Formats the margin and font size of list item headers in the section*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .footer {
+    /*Formats the padding,font, and text placement of the footer*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -142,5 +150,6 @@ p {
 }
 
 .footer h2 {
+    /*Formats the text size of the h2 footer*/
     font-size: 20px;
 }
